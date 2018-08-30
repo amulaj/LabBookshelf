@@ -2,20 +2,38 @@ codeunit 50102 "WebServiceCall"
 {
     trigger OnRun();
     var 
-        Customer_l: Record Customer;
-        YesPleaseTxt: Label 'Yes, please.';
-    begin
+        Customer_l: Record Customer;        
+        MyWindow: Dialog;          
+        MyNext: Integer;      
+        MyInputPage: Page MyInputPage;   
+    begin                                                 
+         clear(MyInputPage);         
+         MyInputPage.SetInput('google.com');
+         MyInputPage.RunModal;         
+        /*
+        //Only a test for Input Dialog. Dialog works but not for Input only for Showing some Informations.
+        MyNext := 0;  
+        MyWindow.OPEN(Text000,MyNext);           
+        REPEAT  
+            // Do some processing. 
+            SLEEP(5000);   
+            MyNext := MyNext + 1;  
+            MyWindow.UPDATE(); // Update the field in the dialog.  
+            SLEEP(5000);             
+        UNTIL MyNext = 4;          
+        MyWindow.CLOSE()     
+        */
         clear(ContentJson);        
         HttpClient.DefaultRequestHeaders().Clear(); 
-        if Customer_l.get(10000) then begin         
-        PopulateCustomerWithFetchData(Customer_l,FetchDataFromWebService('google.com')); 
+        if Customer_l.get(10000) then begin          
+        PopulateCustomerWithFetchData(Customer_l,FetchDataFromWebService(MyInputPage.GetInput)); 
         message(Customer_l.Name + '; ' 
                 + Customer_l."Home Page" + '; ' 
                 + Customer_l.Address + '; ' 
                 + Customer_l.City + '; ' 
                 + Customer_l."Post Code" + '; ' 
                 + Customer_l."Country/Region Code"); 
-        end;
+        end;    
     end;
 
     local procedure FetchDataFromWebservice(DomainName: Text) ResponseJson: JsonObject;           
@@ -72,5 +90,5 @@ codeunit 50102 "WebServiceCall"
         Url: Label 'https://api.fullcontact.com/v3/company.enrich', Locked=true; 
         ApiKey: Label 'JPFZHxaEO4VgBlJ3RQtrW3RT0ZaKyzlW', Locked=true; 
         ErrorNoConnection: Label 'Check your internet connection.'; 
-        ErrorResponse: Label 'An error occured\Status code: %1\Reason: %2'; 
+        ErrorResponse: Label 'An error occured\Status code: %1\Reason: %2';         
 }
