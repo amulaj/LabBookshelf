@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "al",
+            "request": "launch",
+            "name": "srvnav09",
+            "server": "http://srvnav09",
+            "serverInstance": "biba_nav_ch_110_test",
+            "port": 7179,
+            "authentication": "Windows",
+            "startupObjectId": 21
+        }
+        
+    ]
+}

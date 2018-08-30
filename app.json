@@ -1,0 +1,24 @@
+{
+  "id": "4f17db85-b368-45dd-a050-26a39a409ba1",
+  "name": "Bookshelf 1.0",
+  "publisher": "Aziz Mulaj",
+  "brief": "",
+  "description": "",
+  "version": "1.0.0.0",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "capabilities": [],
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "11.0.0.0",
+  "application": "11.0.0.0",
+  "idRange": {
+    "from": 50100,
+    "to": 50149
+  },
+  "features":"TranslationFile",
+  "showMyCode": false
+}
