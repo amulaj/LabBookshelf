@@ -9,7 +9,11 @@
             "serverInstance": "biba_nav_ch_110_test",
             "port": 7179,
             "authentication": "Windows",
+<<<<<<< HEAD
             "startupObjectId": 21            
+=======
+            "startupObjectId": 21
+>>>>>>> a5426ca... Initial Version commited to online github repository
         }
         
     ]

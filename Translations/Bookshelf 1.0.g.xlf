@@ -118,11 +118,14 @@
           <note from="Developer" annotates="general" priority="2" />
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension - Field</note>
         </trans-unit>
+<<<<<<< HEAD
         <trans-unit id="Page 3444772091 - Control 1444242619 - Property 2879900210" maxWidth="999" size-unit="char" translate="yes" xml:space="preserve">
           <source>Geben Sie bitte einen Domain Namen ein zum Beispiel (google.com)</source>
           <note from="Developer" annotates="general" priority="2" />
           <note from="Xliff Generator" annotates="general" priority="3">Page - Control</note>
         </trans-unit>
+=======
+>>>>>>> a5426ca... Initial Version commited to online github repository
         <trans-unit id="Codeunit 3303279409 - NamedType 4165234317" maxWidth="999" size-unit="char" translate="no" xml:space="preserve">
           <source>https://api.fullcontact.com/v3/company.enrich</source>
           <note from="Developer" annotates="general" priority="2" />

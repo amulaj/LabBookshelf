@@ -31,12 +31,10 @@ page 50101 "LAB Book Card"
                 {
                     ApplicationArea = All;
                 }
-                /*
                 field("Page Count"; "Page Count")
                 {
                     ApplicationArea = All;
                 }
-                */
             }
         }
     }

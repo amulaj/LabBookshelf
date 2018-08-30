@@ -23,8 +23,6 @@ table 50100 "Lab Book"
         field(5;"Page Count";Integer)
         {
             DataClassification = ToBeClassified;
-            ObsoleteState = Obsolete; 
-            ObsoleteReason = 'Page Count Field wird nicht mehr benötigt und wir daher als Obsolet markiert.';
         }
     }
 
