@@ -28,10 +28,12 @@ page 50102 "LAB Book List"
                 {
                     ApplicationArea = All;
                 }
+                /*
                 field("Page Count"; "Page Count")
                 {
                     ApplicationArea = All;
                 }
+                */
             }
         }
     }
