@@ -5,6 +5,7 @@ page 50102 "LAB Book List"
     SourceTable = "LAB Book";
     Editable = false;
     Caption = 'Book List';
+    UsageCategory = Lists; 
 
     layout
     {
