@@ -3,30 +3,25 @@
   <file datatype="xml" source-language="en-US" original="Bookshelf 1.0">
     <body>
       <group id="body">
-        <trans-unit id="Table 576227818 - Field 4200184881 - Property 2879900210" maxWidth="999" size-unit="char" translate="yes" xml:space="preserve">
-          <source>No.</source>
+        <trans-unit id="Codeunit 3303279409 - NamedType 4165234317" maxWidth="999" size-unit="char" translate="no" xml:space="preserve">
+          <source>https://api.fullcontact.com/v3/company.enrich</source>
           <note from="Developer" annotates="general" priority="2" />
-          <note from="Xliff Generator" annotates="general" priority="3">Table - Field</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit - Label</note>
         </trans-unit>
-        <trans-unit id="Table 576227818 - Field 329424276 - Property 2879900210" maxWidth="999" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Title</source>
+        <trans-unit id="Codeunit 3303279409 - NamedType 3332662617" maxWidth="999" size-unit="char" translate="no" xml:space="preserve">
+          <source>JPFZHxaEO4VgBlJ3RQtrW3RT0ZaKyzlW</source>
           <note from="Developer" annotates="general" priority="2" />
-          <note from="Xliff Generator" annotates="general" priority="3">Table - Field</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit - Label</note>
         </trans-unit>
-        <trans-unit id="Table 576227818 - Field 2842729223 - Property 2879900210" maxWidth="999" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Author</source>
+        <trans-unit id="Codeunit 3303279409 - NamedType 232005705" maxWidth="999" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Check your internet connection.</source>
           <note from="Developer" annotates="general" priority="2" />
-          <note from="Xliff Generator" annotates="general" priority="3">Table - Field</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit - Label</note>
         </trans-unit>
-        <trans-unit id="Table 576227818 - Field 3934221286 - Property 2879900210" maxWidth="999" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Hard Cover</source>
+        <trans-unit id="Codeunit 3303279409 - NamedType 2333864797" maxWidth="999" size-unit="char" translate="yes" xml:space="preserve">
+          <source>An error occured\Status code: %1\Reason: %2</source>
           <note from="Developer" annotates="general" priority="2" />
-          <note from="Xliff Generator" annotates="general" priority="3">Table - Field</note>
-        </trans-unit>
-        <trans-unit id="Table 576227818 - Field 4112194308 - Property 2879900210" maxWidth="999" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Page Count</source>
-          <note from="Developer" annotates="general" priority="2" />
-          <note from="Xliff Generator" annotates="general" priority="3">Table - Field</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit - Label</note>
         </trans-unit>
         <trans-unit id="Page 3685244974 - Property 2879900210" maxWidth="999" size-unit="char" translate="yes" xml:space="preserve">
           <source>Book Card</source>
@@ -108,6 +103,36 @@
           <note from="Developer" annotates="general" priority="2" />
           <note from="Xliff Generator" annotates="general" priority="3">Page - Action</note>
         </trans-unit>
+        <trans-unit id="Page 3444772091 - Control 1444242619 - Property 2879900210" maxWidth="999" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Geben Sie bitte einen Domain Namen ein zum Beispiel (google.com)</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Page - Control</note>
+        </trans-unit>
+        <trans-unit id="Table 576227818 - Field 4200184881 - Property 2879900210" maxWidth="999" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No.</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Table - Field</note>
+        </trans-unit>
+        <trans-unit id="Table 576227818 - Field 329424276 - Property 2879900210" maxWidth="999" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Title</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Table - Field</note>
+        </trans-unit>
+        <trans-unit id="Table 576227818 - Field 2842729223 - Property 2879900210" maxWidth="999" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Author</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Table - Field</note>
+        </trans-unit>
+        <trans-unit id="Table 576227818 - Field 3934221286 - Property 2879900210" maxWidth="999" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Hard Cover</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Table - Field</note>
+        </trans-unit>
+        <trans-unit id="Table 576227818 - Field 4112194308 - Property 2879900210" maxWidth="999" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Page Count</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Table - Field</note>
+        </trans-unit>
         <trans-unit id="TableExtension 3245296446 - Field 3275377652 - Property 2879900210" maxWidth="999" size-unit="char" translate="yes" xml:space="preserve">
           <source>Favourite Book Id</source>
           <note from="Developer" annotates="general" priority="2" />
@@ -117,31 +142,6 @@
           <source>Favourite Book Title</source>
           <note from="Developer" annotates="general" priority="2" />
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension - Field</note>
-        </trans-unit>
-        <trans-unit id="Page 3444772091 - Control 1444242619 - Property 2879900210" maxWidth="999" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Geben Sie bitte einen Domain Namen ein zum Beispiel (google.com)</source>
-          <note from="Developer" annotates="general" priority="2" />
-          <note from="Xliff Generator" annotates="general" priority="3">Page - Control</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3303279409 - NamedType 4165234317" maxWidth="999" size-unit="char" translate="no" xml:space="preserve">
-          <source>https://api.fullcontact.com/v3/company.enrich</source>
-          <note from="Developer" annotates="general" priority="2" />
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit - Label</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3303279409 - NamedType 3332662617" maxWidth="999" size-unit="char" translate="no" xml:space="preserve">
-          <source>JPFZHxaEO4VgBlJ3RQtrW3RT0ZaKyzlW</source>
-          <note from="Developer" annotates="general" priority="2" />
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit - Label</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3303279409 - NamedType 232005705" maxWidth="999" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Check your internet connection.</source>
-          <note from="Developer" annotates="general" priority="2" />
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit - Label</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3303279409 - NamedType 2333864797" maxWidth="999" size-unit="char" translate="yes" xml:space="preserve">
-          <source>An error occured\Status code: %1\Reason: %2</source>
-          <note from="Developer" annotates="general" priority="2" />
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit - Label</note>
         </trans-unit>
       </group>
     </body>
