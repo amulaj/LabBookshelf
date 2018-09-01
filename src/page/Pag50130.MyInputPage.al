@@ -1,4 +1,4 @@
-page 50130 MyInputPage
+page 50130 "MyInputPage"
 
 {
     PageType = StandardDialog;
